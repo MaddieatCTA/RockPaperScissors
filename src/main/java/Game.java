@@ -12,7 +12,7 @@ public class Game {
         System.out.println("you chose " + userOpt + ". let's see if you win:");
         System.out.println(" ");
         System.out.println("The computer has chosen " + compOpt + ".");
-       
+
 
         if (Objects.equals(userOpt, "rock") && Objects.equals(compOpt, "rock")) {
             System.out.println("you drew. Play again:");
@@ -21,7 +21,6 @@ public class Game {
             Game game2 = new Game();
             game2.playTheGame();
         } else if (Objects.equals(userOpt, "paper") && Objects.equals(compOpt, "paper")) {
-            ;
             System.out.println("you drew. Play again:");
             UserName user2 = new UserName();
             user2.setOption();

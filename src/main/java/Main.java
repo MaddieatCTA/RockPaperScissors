@@ -9,7 +9,7 @@ public class Main {
         user1.setNameFromInput();
 
 
-        System.out.println("Welcome to rock paper scissors, " + UserName.getName() + ".");
+        System.out.println("Welcome to rock paper scissors, " + UserName.getName() + ". Let's play!");
         System.out.println(" ");
 
         boolean playAgain = false;
@@ -24,7 +24,7 @@ public class Main {
                 playAgain = true;
 
             } else {
-                System.out.println("Okay, thanks for playing.");
+                System.out.println("Okay, thanks for playing, have a nice day!");
                 playAgain = false;
             }
         } while (playAgain);
